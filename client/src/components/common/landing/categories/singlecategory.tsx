@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Category } from "../../../../types/types";
 import { ArrowRight } from "@phosphor-icons/react";
 

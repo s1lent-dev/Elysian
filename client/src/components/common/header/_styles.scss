@@ -14,7 +14,7 @@
 
   @include lg-max {
     padding: 10px;
-    position: sticky;
+    position: fixed;
     @include flex(row, center, space-evenly);
   }
 

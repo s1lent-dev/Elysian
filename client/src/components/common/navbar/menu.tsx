@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { Link } from "react-router-dom";
 import { CaretDown, SignIn, UserCirclePlus } from "@phosphor-icons/react";
 import Darkmode from "../darkmode/darkmode";
+import { useSelector } from "react-redux";
 
 const Menu = ({
   isMenuOpen,
@@ -13,7 +14,7 @@ const Menu = ({
 }) => {
   
   const [isDropdown, setIsDropdown] = useState(false);
-  const [isLogin, setIsLogin] = useState(true);
+  const isLogin = useSelector((state: any) => state.userSlice.isLogin);
 
     useEffect(() => {
     const handleOutsideClick = (event: MouseEvent) => {

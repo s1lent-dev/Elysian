@@ -64,6 +64,8 @@ const SignupX = () => {
       password,
     };
     try {
+      console.log(body);
+      
       navigate("/login");
     } catch (err: any) {
       setError({ message: err.message });

@@ -1,4 +1,4 @@
-import React from "react";
+
 import ContentWrapper from "../../wrappers/content-wrapper/contentWrapper";
 const Usersection = () => {
   return (

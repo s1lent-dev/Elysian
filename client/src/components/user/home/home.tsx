@@ -22,16 +22,16 @@ const productCategories = [
   { imgSrc: "/furnitures/F-bg-4.jpg", label: "Kitchen" },
 ];
 
-const brandCategories = [
-  { imgSrc: "/furnitures/F-bg-2.jpg", label: "Godrej" },
-  { imgSrc: "/furnitures/F-bg-3.jpg", label: "Livon" },
-  { imgSrc: "/furnitures/F-bg-4.jpg", label: "Hometown" },
-  { imgSrc: "/furnitures/F-bg-5.jpg", label: "Nilkamal" },
-  { imgSrc: "/furnitures/F-bg-6.jpg", label: "Woodenstreat" },
-  { imgSrc: "/furnitures/F-bg-7.jpg", label: "Urban Ladder" },
-  { imgSrc: "/furnitures/F-bg-8.jpg", label: "Zauri" },
-  { imgSrc: "/furnitures/F-bg-4.jpg", label: "Damro" },
-];
+// const brandCategories = [
+//   { imgSrc: "/furnitures/F-bg-2.jpg", label: "Godrej" },
+//   { imgSrc: "/furnitures/F-bg-3.jpg", label: "Livon" },
+//   { imgSrc: "/furnitures/F-bg-4.jpg", label: "Hometown" },
+//   { imgSrc: "/furnitures/F-bg-5.jpg", label: "Nilkamal" },
+//   { imgSrc: "/furnitures/F-bg-6.jpg", label: "Woodenstreat" },
+//   { imgSrc: "/furnitures/F-bg-7.jpg", label: "Urban Ladder" },
+//   { imgSrc: "/furnitures/F-bg-8.jpg", label: "Zauri" },
+//   { imgSrc: "/furnitures/F-bg-4.jpg", label: "Damro" },
+// ];
 
 const HomeX = () => {
 

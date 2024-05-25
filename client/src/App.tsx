@@ -11,7 +11,6 @@ import {
 import Loader from "./components/common/loader/loader";
 import Header from "./components/common/header/header";
 import Footer from "./components/common/footer/footer";
-import ContentWrapper from "./components/common/wrappers/content-wrapper/contentWrapper";
 // Auth Imports
 const Signin = lazy(() => import("./pages/auth/signin"));
 const Singup = lazy(() => import("./pages/auth/singup"));

@@ -5,6 +5,7 @@ import SwiperLogo from "../wrappers/swiper-wrapper/swiper-logo/swiperLogo";
 import Categories from "./categories/categories";
 import InfoSection from "./info-section/infoSection";
 import Achievements from "./achievements/achievements";
+import Founders from "./founders/founders";
 import Admincard from "./admin-apply/applyAdmin";
 import Testimonials from "./testimonials/testimonial";
 
@@ -31,6 +32,9 @@ const LandingX = () => {
       </section>
       <section>
         <Achievements />
+      </section>
+      <section>
+        <Founders />
       </section>
       <section>
         <Admincard />

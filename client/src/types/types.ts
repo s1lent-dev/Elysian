@@ -20,6 +20,17 @@ export type Product = {
   _id: string;
 };
 
+export type Founder = {
+  name: string;
+  title: string;
+  photo: string;
+  desc: string;
+  linkedin: string;
+  twitter: string;
+  github: string;
+  meta: string;
+};
+
 export type Category = {
   icon: ReactNode;
   heading: string;

@@ -6,6 +6,7 @@ import Categories from "./categories/categories";
 import UserSection from "./sections/usersection";
 import Adminsection from "./sections/adminsection";
 import Achievements from "./achievements/achievements";
+import Founders from "./founders/founders";
 import Admincard from "./admin-apply/applyAdmin";
 import Testimonials from "./testimonials/testimonial";
 
@@ -32,6 +33,9 @@ const LandingX = () => {
       </section>
       <section>
         <Achievements />
+      </section>
+      <section>
+        <Founders />
       </section>
       <section>
         <Admincard />

@@ -1,0 +1,51 @@
+.singleCategory {
+  @include flex(column, flex-start, center, 1.5rem);
+  @include shadow();
+  @include border();
+  @include transition();
+
+  background-color: $bg-card-dark;
+  border-radius: $br-lg;
+  padding: 3.5rem;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-$sp-xs);
+    background-color: $bg-card-hover-dark;
+  }
+
+  .categoryIcon {
+    @include dimensions(60px, 60px);
+    @include flex();
+
+    font-size: $fs-xxxl;
+    background-color: $color-primary;
+    color: $tc-light;
+    border-radius: $br-md;
+    margin-bottom: $sp-md;
+  }
+
+  .categoryHeading {
+    font-size: $fs-lg;
+    font-weight: $fw-bold;
+    color: rgba($tc-light, 0.9);
+  }
+
+  .categoryDesc {
+    font-size: $fs-md;
+    font-weight: $fw-light;
+    color: $tc-light-2;
+    margin-top: $sp-sm;
+  }
+
+  .categoryLink {
+    @include flex(row, center, center, 0.5rem);
+    @include transition();
+
+    color: $color-primary;
+
+    .arrow {
+      color: $tc-light-2;
+    }
+  }
+}

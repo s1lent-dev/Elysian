@@ -3,14 +3,12 @@ import { logos } from "../../../assets/data/logosData";
 import Caraousel from "./caraousel/caraousel";
 import SwiperLogo from "../wrappers/swiper-wrapper/swiper-logo/swiperLogo";
 import Categories from "./categories/categories";
-import UserSection from "./sections/usersection";
-import Adminsection from "./sections/adminsection";
+import InfoSection from "./info-section/infoSection";
 import Achievements from "./achievements/achievements";
 import Admincard from "./admin-apply/applyAdmin";
 import Testimonials from "./testimonials/testimonial";
 
 const LandingX = () => {
-
   return (
     <div className="landing">
       <main>
@@ -25,8 +23,9 @@ const LandingX = () => {
         <Categories />
       </section>
       <section>
-        <UserSection />
+        <InfoSection />
       </section>
+      {/*
       <section>
         <Adminsection />
       </section>
@@ -38,7 +37,7 @@ const LandingX = () => {
       </section>
       <section>
         <Testimonials />
-      </section>
+      </section> */}
     </div>
   );
 };

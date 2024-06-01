@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import ContentWrapper from "../../../components/common/wrappers/content-wrapper/contentWrapper";
@@ -31,7 +31,6 @@ const SigninX = () => {
     { setSubmitting }: FormikHelpers<any>
   ) => {
     try {
-      console.log(values);
       dispatch(setLogin(true));
     } catch (err: any) {
       setError({ message: err.message });

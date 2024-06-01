@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import ContentWrapper from "../../wrappers/content-wrapper/contentWrapper";
 import SwiperSlider from "../../wrappers/swiper-wrapper/swiper-slider/swiperSlider";

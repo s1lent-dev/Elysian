@@ -17,6 +17,7 @@ const SingleFounder = ({
   github,
   meta,
 }: Founder) => {
+
   return (
     <div className="singlefounder">
       <div className="info">

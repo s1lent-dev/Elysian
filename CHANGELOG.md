@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/codezeniths/Elysian/compare/v1.24.2...v1.25.0) (2024-05-25)
+
+
+### Features
+
+* add vercel config ([71e9763](https://github.com/codezeniths/Elysian/commit/71e97630487a1f79b49b3938c900b2284ef3f572))
+
 ## [1.24.2](https://github.com/codezeniths/Elysian/compare/v1.24.1...v1.24.2) (2024-05-24)
 
 
